@@ -15,7 +15,7 @@ const Hero = () => {
   return (
     <>
       <StyledMainTitle>
-        Термос TermoComfort 500мл із датчиком температури
+        Акумуляторний шуруповерт Makita 12v з набором + набір інструментів 46 предметів в подарунок
       </StyledMainTitle>
       <StyledHeroImg src={mainPhoto} alt="Термос" />
       <StyledHeroList>

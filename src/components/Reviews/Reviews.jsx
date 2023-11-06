@@ -18,26 +18,22 @@ const Reviews = () => {
           <StyledThirdTitle>Юлія Приходько</StyledThirdTitle>
           <StyledCityText>м.Київ</StyledCityText>
           <StyledReviewsText>
-            Купила чоловіку на подарунок. Термос гарно тримає тепло, до вечору
-            чай залишився гарячим, тому рекомендую.
+            Купувала на подарунок, чоловік залишився дуже задоволений.
           </StyledReviewsText>
         </StyledReviewsItem>
         <StyledReviewsItem>
-          <StyledThirdTitle>Ярослава Бабик</StyledThirdTitle>
+          <StyledThirdTitle>Ярослав Бабик</StyledThirdTitle>
           <StyledCityText>м.Шепетівка</StyledCityText>
           <StyledReviewsText>
-            Брала для прогулянок з дитиною, дуже зручно, що показує реальну
-            температуру і не протікає. Легкий і дизайн приємний. До речі, мене
-            здивувало, що немає неприємного запаху як часто буває в термочашках.
+            Користуюсь таким більше року. Гарний інструмент - рекомендую.
           </StyledReviewsText>
         </StyledReviewsItem>
         <StyledReviewsItem>
           <StyledThirdTitle>Дмитро Литвинчук</StyledThirdTitle>
           <StyledCityText>м.Кривий Ріг</StyledCityText>
           <StyledReviewsText>
-            Тримає температуру прекрасно, через 2 години - кип‘яток, через 4-5
-            годин просто гарячий. Не протікає і влазить в підстаканник, дуже
-            зручно що одразу бачиш температуру свого напою.
+            Шуруповерт просто вогонь, свої функції виконує на ура, легкий та
+            потужний, рекомендую до покупки.
           </StyledReviewsText>
         </StyledReviewsItem>
       </StyledReviewsList>

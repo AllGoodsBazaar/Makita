@@ -6,14 +6,12 @@ import PropTypes from 'prop-types';
 import iconClose from '../../images/form/iconClose.svg';
 import {
   StyledInput,
-  StyledSelect,
   StyledFormBtn,
   StyledForm,
   StyledIconClose,
 } from './Form.styled';
 
 const Form = ({ closeModal }) => {
-  const [color, setColor] = useState('');
   const [name, setName] = useState('');
   const [phone, setPhone] = useState('');
 
@@ -24,13 +22,12 @@ const Form = ({ closeModal }) => {
 
     name === 'name' && setName(value);
     name === 'phone' && setPhone(Number(value));
-    name === 'color' && setColor(value);
   };
 
   const handleSubmitForm = event => {
     event.preventDefault();
 
-    if (color === '' || name === '' || phone === '') {
+    if (name === '' || phone === '') {
       Notify.failure('Заповніть, будь ласка, усі поля');
 
       return;
@@ -44,7 +41,6 @@ const Form = ({ closeModal }) => {
 
     let message = `Ім'я: ${name}\n`;
     message += `Телефон: ${phone}\n`;
-    message += `Колір ${color}`;
 
     telegramOrder(message);
 
@@ -61,12 +57,6 @@ const Form = ({ closeModal }) => {
 
   return (
     <StyledForm onSubmit={handleSubmitForm}>
-      <StyledSelect name="color" onChange={handleChange}>
-        <option value="">Оберіть колір</option>
-        <option value="Чорний">Чорний</option>
-        <option value="Синій">Синій</option>
-        <option value="Червоний">Червоний</option>
-      </StyledSelect>
       <StyledInput
         type="text"
         name="name"

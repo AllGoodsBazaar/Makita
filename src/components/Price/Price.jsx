@@ -16,15 +16,15 @@ const Price = () => {
     <StyledWrapper>
       <StyledOldPrice>
         <StyledPriceText>Звичайна ціна:</StyledPriceText>
-        <StyledPriceLine>699грн.</StyledPriceLine>
+        <StyledPriceLine>2199грн.</StyledPriceLine>
       </StyledOldPrice>
       <StyledDiscount>
         <StyledDiscText>SALE</StyledDiscText>
-        <StyledDiscNumber>-29%</StyledDiscNumber>
+        <StyledDiscNumber>-37%</StyledDiscNumber>
       </StyledDiscount>
       <StyledNewPrice>
         <StyledPriceText>Ціна сьогодні:</StyledPriceText>
-        <StyledPrice>499грн.</StyledPrice>
+        <StyledPrice>1399грн.</StyledPrice>
       </StyledNewPrice>
     </StyledWrapper>
   );
