@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/Makita/static/css/main.14aded6a.css",
-    "main.js": "/Makita/static/js/main.3976c94f.js",
-    "static/media/mainPhoto.png": "/Makita/static/media/mainPhoto.11d816aa4cc7e4ab4bee.png",
+    "main.js": "/Makita/static/js/main.045f058e.js",
     "static/media/desc.jpg": "/Makita/static/media/desc.7e5722c35a4b3d16b4a4.jpg",
+    "static/media/mainPhoto.png": "/Makita/static/media/mainPhoto.85f2d88b92b9bed726a9.png",
     "static/media/red.jpg": "/Makita/static/media/red.93e2df95aeff0f8ddfed.jpg",
     "static/media/car.jpg": "/Makita/static/media/car.4c32873f52a20efa9158.jpg",
     "static/media/img.jpg": "/Makita/static/media/img.55fd395e73f4cb38b021.jpg",
@@ -17,10 +17,10 @@
     "index.html": "/Makita/index.html",
     "static/media/iconClose.svg": "/Makita/static/media/iconClose.f3cbdd58dc25ca7cbb3d242106b56fb9.svg",
     "main.14aded6a.css.map": "/Makita/static/css/main.14aded6a.css.map",
-    "main.3976c94f.js.map": "/Makita/static/js/main.3976c94f.js.map"
+    "main.045f058e.js.map": "/Makita/static/js/main.045f058e.js.map"
   },
   "entrypoints": [
     "static/css/main.14aded6a.css",
-    "static/js/main.3976c94f.js"
+    "static/js/main.045f058e.js"
   ]
 }
