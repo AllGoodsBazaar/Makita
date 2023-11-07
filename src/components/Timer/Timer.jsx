@@ -10,7 +10,7 @@ import {
 
 const Timer = () => {
   // Отримуємо збережені значення таймера з localStorage або встановлюємо значення за замовчуванням
-  const [hours, setHours] = useState(localStorage.getItem('timerHours') || 3);
+  const [hours, setHours] = useState(localStorage.getItem('timerHours') || 21);
   const [minutes, setMinutes] = useState(
     localStorage.getItem('timerMinutes') || 21
   );
