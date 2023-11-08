@@ -19,3 +19,7 @@ export const StyledDescText = styled.p`
 
   color: ${colors.secondaryTextColor};
 `;
+
+export const StyledSpan = styled.span`
+  font-weight: 500;
+`;
